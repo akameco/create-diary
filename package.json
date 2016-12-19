@@ -13,6 +13,9 @@
   "engines": {
     "node": ">=6"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "xo && ava"
   },
