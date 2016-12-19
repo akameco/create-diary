@@ -1,0 +1,39 @@
+{
+  "name": "@akameco/create-diary",
+  "version": "0.0.0",
+  "description": "create my diary",
+  "license": "MIT",
+  "repository": "akameco/create-diary",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli"
+  ],
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "meow": "^3.7.0",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
