@@ -9,7 +9,9 @@
     "email": "akameco.t@gmail.com",
     "url": "akameco.github.io"
   },
-  "bin": "cli.js",
+  "bin": {
+    "create-diary": "cli.js"
+  },
   "engines": {
     "node": ">=6"
   },
@@ -21,7 +23,8 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "fixture"
   ],
   "keywords": [
     "cli-app",
